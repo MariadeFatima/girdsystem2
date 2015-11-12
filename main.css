@@ -1,0 +1,107 @@
+
+{outline: 1px solid yellow;}
+/*__________GLOBAL__________*/
+li{
+	list-style: none;
+	padding: 0 auto;
+}
+.clearfix{
+	height: 20px;
+}
+/*__________HEADER__________*/
+/*header-menu*/
+.header-menu{
+	height: 150px;
+	background-color:#353533;
+}
+.menu{
+	padding-top:20px;
+}
+.header-menu img{
+	width: 100px;
+}
+.header-menu p a{
+	color: white;
+	padding: 0px 30px;
+}
+.list-links{
+	padding-top:40px;
+}
+/*header-content*/
+.header-content li{
+	display: inline-block;
+ 	float: left;
+ 	padding: 0px 10px;
+}
+.header-content{
+	background-color:#CCC3C3;
+	height: 344px;
+	border-bottom: 4px solid #9E9E9A;
+}
+.header-content p{
+ 	padding: 10px 50px;
+ 	font-weight: bold;
+ }
+ .header-content p a{
+ 	font-size: 10px;
+ }
+.header-content li img{
+	max-width: 253px;
+	border:double #FFFFFF;
+}
+/*__________SIDEBAR__________*/
+.sidebar{
+	padding:0px 50px;
+}
+.sidebar h3{
+	color:#666;
+	font-weight: bold;
+	border-bottom: 1px solid #CCC;
+	padding-bottom: 3px; 
+	font-size: 17px;
+}
+.sidebar p{
+	color:#666;
+	border-top: 1px solid #CCC;
+	padding-top:10px;
+}
+.list-links li a img{
+	width: 17px;
+}
+.sidebar ul{
+	padding: 0px;
+}
+/*__________SECTION__________*/
+.list-portafolio{
+	padding:19px 0px;
+	margin: 0;
+}
+.list-portafolio li{
+	display: inline-block;
+	width: 20%;
+	float: left;
+}
+.list-portafolio li img{
+	max-width: 90%;
+	background: white;
+	border:double  #CCC;
+}
+/*__________FOOTER__________*/
+.footer-content{
+	padding:0px 45px;
+}
+.footer{
+	background-color: #585858;
+	color: #FFF;
+	padding:30px 0px;
+}
+.footer p a{
+	color: #CCC;
+	padding: 0px 10px;
+}
+.footer a{
+	color: #CCC;
+}
+.footer .small{
+	color:#999;
+}
